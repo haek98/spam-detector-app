@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/drawer_group" />
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/ic_screwdriver_grey600_18dp"
+        android:title="Update" />
+    <item
+        android:id="@+id/spam_folder"
+        android:title="Spam" />
+    <item
+        android:id="@+id/not_spam_folder"
+        android:title="Not Spam" />
+</menu>
